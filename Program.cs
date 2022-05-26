@@ -7,8 +7,9 @@ namespace PlanYourHeist
     {
         static void Main(string[] args)
         {
-
-            int bankDifficulty = 100;
+            Random rand = new Random();
+            int luck = rand.Next(-10, 11);
+            int bankDifficulty = 100 + luck;
             Crew myCrew = new Crew();
             Console.WriteLine("Plan Your Heist!");
             Console.WriteLine("Enter your team members name");
@@ -36,17 +37,19 @@ namespace PlanYourHeist
                         var crewMember = myCrew.TeamMembers.ElementAt(i).Value;
 
                     }
+                    Console.WriteLine($"The team's combined skill level is: {myCrew.sumOfSkill}");
+                    Console.WriteLine($"The bank's difficulty level is: {bankDifficulty}");
+                    if (myCrew.sumOfSkill >= bankDifficulty)
+                    {
+                        Console.WriteLine("Success!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Failure!");
+                    }
                 }
             }
 
-            if (myCrew.sumOfSkill >= bankDifficulty)
-            {
-                Console.WriteLine("Success!");
-            }
-            else
-            {
-                Console.WriteLine("Failure!");
-            }
 
         }
     }
