@@ -1,0 +1,16 @@
+C:\Users\harde\workspace\csharp\PlanYourHeist\bin\Debug\net5.0\PlanYourHeist.exe
+C:\Users\harde\workspace\csharp\PlanYourHeist\bin\Debug\net5.0\PlanYourHeist.deps.json
+C:\Users\harde\workspace\csharp\PlanYourHeist\bin\Debug\net5.0\PlanYourHeist.runtimeconfig.json
+C:\Users\harde\workspace\csharp\PlanYourHeist\bin\Debug\net5.0\PlanYourHeist.runtimeconfig.dev.json
+C:\Users\harde\workspace\csharp\PlanYourHeist\bin\Debug\net5.0\PlanYourHeist.dll
+C:\Users\harde\workspace\csharp\PlanYourHeist\bin\Debug\net5.0\ref\PlanYourHeist.dll
+C:\Users\harde\workspace\csharp\PlanYourHeist\bin\Debug\net5.0\PlanYourHeist.pdb
+C:\Users\harde\workspace\csharp\PlanYourHeist\obj\Debug\net5.0\PlanYourHeist.csproj.AssemblyReference.cache
+C:\Users\harde\workspace\csharp\PlanYourHeist\obj\Debug\net5.0\PlanYourHeist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harde\workspace\csharp\PlanYourHeist\obj\Debug\net5.0\PlanYourHeist.AssemblyInfoInputs.cache
+C:\Users\harde\workspace\csharp\PlanYourHeist\obj\Debug\net5.0\PlanYourHeist.AssemblyInfo.cs
+C:\Users\harde\workspace\csharp\PlanYourHeist\obj\Debug\net5.0\PlanYourHeist.csproj.CoreCompileInputs.cache
+C:\Users\harde\workspace\csharp\PlanYourHeist\obj\Debug\net5.0\PlanYourHeist.dll
+C:\Users\harde\workspace\csharp\PlanYourHeist\obj\Debug\net5.0\ref\PlanYourHeist.dll
+C:\Users\harde\workspace\csharp\PlanYourHeist\obj\Debug\net5.0\PlanYourHeist.pdb
+C:\Users\harde\workspace\csharp\PlanYourHeist\obj\Debug\net5.0\PlanYourHeist.genruntimeconfig.cache
