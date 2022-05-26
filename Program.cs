@@ -12,7 +12,16 @@ namespace PlanYourHeist
             Crew myCrew = new Crew();
             Console.WriteLine("Plan Your Heist!");
             Console.WriteLine("What's the difficulty of the bank?");
-            int bankDifficulty = int.Parse(Console.ReadLine());
+            int bankDifficulty;
+            bool bankDifficultyIsInt = int.TryParse(Console.ReadLine(), out bankDifficulty);
+            while (bankDifficultyIsInt == false)
+            {
+                Console.WriteLine("Please enter a valid integer for bank difficulty.");
+                bankDifficultyIsInt = int.TryParse(Console.ReadLine(), out bankDifficulty);
+            }
+
+
+
             Console.WriteLine("Enter your team members name");
             string response = Console.ReadLine();
             CreateMemberLoop(response);
