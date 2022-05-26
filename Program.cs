@@ -8,7 +8,7 @@ namespace PlanYourHeist
         static void Main(string[] args)
         {
 
-
+            int bankDifficulty = 100;
             Crew myCrew = new Crew();
             Console.WriteLine("Plan Your Heist!");
             Console.WriteLine("Enter your team members name");
@@ -37,7 +37,15 @@ namespace PlanYourHeist
 
                     }
                 }
+            }
 
+            if (myCrew.sumOfSkill >= bankDifficulty)
+            {
+                Console.WriteLine("Success!");
+            }
+            else
+            {
+                Console.WriteLine("Failure!");
             }
 
         }
