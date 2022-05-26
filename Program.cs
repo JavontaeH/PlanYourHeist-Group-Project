@@ -11,6 +11,8 @@ namespace PlanYourHeist
 
             Crew myCrew = new Crew();
             Console.WriteLine("Plan Your Heist!");
+            Console.WriteLine("What's the difficulty of the bank?");
+            int bankDifficulty = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter your team members name");
             string response = Console.ReadLine();
             CreateMemberLoop(response);
@@ -34,25 +36,31 @@ namespace PlanYourHeist
                     int trialRuns = int.Parse(Console.ReadLine());
                     Console.WriteLine($"Your crew has {myCrew.TeamMembers.Count} team members!");
                     Console.WriteLine($"The team's combined skill level is: {myCrew.sumOfSkill}");
+                    int successes = 0;
+                    int failures = 0;
                     for (int i = 0; i < trialRuns; i++)
                     {
                         int luck = rand.Next(-10, 11);
-                        int bankDifficulty = 100 + luck;
+                        int determinedDiff = bankDifficulty + luck;
                         for (int ii = 0; ii < myCrew.TeamMembers.Count; ii++)
                         {
                             var crewMember = myCrew.TeamMembers.ElementAt(ii).Value;
 
                         }
-                        Console.WriteLine($"The bank's difficulty level is: {bankDifficulty}");
-                        if (myCrew.sumOfSkill >= bankDifficulty)
+                        Console.WriteLine($"The bank's difficulty level is: {determinedDiff}");
+                        if (myCrew.sumOfSkill >= determinedDiff)
                         {
                             Console.WriteLine("Success!");
+                            successes++;
                         }
                         else
                         {
                             Console.WriteLine("Failure!");
+                            failures++;
                         }
                     }
+                    Console.WriteLine($"You succeeded {successes} times!");
+                    Console.WriteLine($"You failed {failures} times!");
                 }
             }
 

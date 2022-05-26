@@ -2,6 +2,8 @@
 
 ## A C# Exercise
 
+Mob Coded by [Houston Smith](https://github.com/Houston-Smith), [Cory Clark](https://github.com/k-sarito), and [Tory Theus](https://github.com/ToryT23)!
+
 ## The Story
 
 You are poor. After much, deep consideration, it occurs to you that if you were to get some money, you wouldn't be so poor.
